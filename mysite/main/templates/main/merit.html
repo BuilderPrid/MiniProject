@@ -1,0 +1,32 @@
+{%extends 'main/base.html'%}
+{%load static%}
+{%block title%}MeritList{%endblock%}
+{%block style%}
+<link rel="stylesheet" href="{%static 'main/merit.css'%}"> {%endblock%}
+
+
+{%block content%}
+<div class="main">
+    <h1 style="text-align: center;">Merit List</h1>
+    <h3 style="text-align: center;">Please check your name carefully!</h3>
+
+    <table>
+        <tr>
+            <th>Serial No</th>
+            <th>Name</th>
+            <th>Father's Name</th>
+            <th>Mother's Name</th>
+            <th>Marks</th>
+        </tr>
+        {%for item in q_set%}
+        <tr>
+            <td>{{forloop.counter}}</td>
+            <td>{{item.fname}}</td>
+            <td>{{item.father}}</td>
+            <td>{{item.mother}}</td>
+            <td>{{item.marks12}}</td>
+            {%endfor%}
+        <tr>
+    </table>
+</div>
+{%endblock%}

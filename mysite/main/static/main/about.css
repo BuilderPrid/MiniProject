@@ -1,0 +1,22 @@
+.about-main {
+  width: 70%;
+  margin: 130px auto;
+  font-size: larger;
+  box-shadow: 2px 5px 10px rgba(32, 21, 29, 0.675);
+  padding: 20px;
+}
+.contact {
+  box-shadow: 2px 5px 10px rgba(174, 50, 141, 0.675);
+  width: 50%;
+  margin: 30px auto;
+  padding: 30px;
+  background-color: #aeaeddb8;
+}
+.images {
+  display: flex;
+  justify-content: center;
+}
+.images img {
+  margin: 10px 40px;
+  border-radius: 10px;
+}

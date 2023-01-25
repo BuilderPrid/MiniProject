@@ -1,0 +1,63 @@
+{% extends 'main/base.html' %}
+{% load static %}
+{% block style %}
+<link rel="stylesheet" href="{% static 'main/about.css' %}">
+{% endblock %}
+{% block content %}
+
+<div id="carouselExample" class="carousel slide" style="margin: 40px auto; width: 80%;">
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img src="{% static 'main/images/college.jpg' %}" class="d-block w-100" width=450 height=450 alt="...">
+        </div>
+        <div class="carousel-item">
+            <img src="{% static 'main/images/online coll.jpg' %}" class="d-block w-100" width=450 height=450 alt="...">
+        </div>
+        <div class="carousel-item">
+            <img src="{% static 'main/images/colg2.jpeg' %}" class="d-block w-100" width=450 height=450 alt="...">
+        </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+    </button>
+</div>
+
+<div class="about-main">
+    <h2 style="text-align: center;">About Us</h2>
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae modi ut voluptate beatae at tenetur ipsa officiis
+        a veniam sequi voluptatibus neque iure, quasi accusantium totam optio corrupti ipsam minus?Lorem ipsum dolor sit
+        amet consectetur, adipisicing elit. Consequuntur earum labore est magnam beatae ipsa, cupiditate, necessitatibus
+        velit obcaecati facere iure optio aperiam distinctio iusto dolore, illo hic fugiat nobis. Lorem ipsum dolor sit
+        amet, consectetur adipisicing elit. Dolor, eligendi cupiditate quae, enim consequuntur nulla nihil deleniti aut
+        expedita recusandae, doloribus molestiae? Eveniet, quae fugit praesentium totam repellat veritatis odio!
+        Provident molestias porro commodi alias numquam doloribus voluptatibus optio, qui aut.<br> Consequuntur nam
+        consequatur, beatae voluptatem optio repellat dicta doloribus repellendus magni minima atque pariatur laboriosam
+        numquam in possimus nobis eveniet reprehenderit vitae quo? Maxime repudiandae deserunt voluptas perspiciatis
+        natus nisi provident aut enim facilis veritatis. Animi veritatis dignissimos, voluptate consequuntur incidunt
+        neque quos quas autem nemo iure exercitationem aliquam possimus, voluptatum temporibus quo, non labore nihil!
+        Culpa ullam, iste vitae temporibus enim illum sed blanditiis dignissimos voluptate eum similique magni iusto
+        doloremque eaque corporis facilis asperiores cum itaque voluptates doloribus error nobis labore. Dignissimos
+        tempore, vero voluptate architecto at dolores blanditiis quod incidunt placeat. Recusandae asperiores inventore
+        illum, veritatis tempore esse corrupti ipsam reiciendis quam! Quidem ullam blanditiis maiores aspernatur, hic
+        voluptas mollitia quo architecto esse, porro ab, atque voluptates itaque! Eligendi, saepe. Quisquam ratione eos
+        magni? Voluptate omnis esse voluptates fugit in harum sequi, suscipit quaerat aliquid cumque nulla quasi
+        officiis eos sunt eveniet? Ipsa alias eveniet, aspernatur corporis officiis id asperiores minima, facere hic
+        veniam ex eligendi!
+    </p>
+</div>
+<div class="contact">
+    <h3 style="text-align: center;">Catch Us on Social Media</h3>
+    <div class="images">
+        <a href=""><img src="{% static 'main/images/twitter.png' %}" height=50 width=50 alt=""></a>
+        <a href="/twitter"><img src="{% static 'main/images/linkedin.png' %}" height=50 width=50 alt=""></a>
+        <a href="/twitter"><img src="{% static 'main/images/insta.jpg' %}" height=50 width=50 alt=""></a>
+    </div>
+</div>
+
+{% endblock %}

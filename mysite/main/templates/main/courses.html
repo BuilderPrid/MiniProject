@@ -1,0 +1,94 @@
+{%extends 'main/base.html'%}
+{%block title%}Courses Offered{% endblock %}
+{%block style%}
+{% load static %}
+<link rel="stylesheet" href="{% static 'main/courses.css' %}">
+{%endblock%}
+
+{%block content%}
+<h1>Courses Offered</h1>
+<div class="main">
+    <div>
+        <h2 style="margin-top: 56px;
+        margin-bottom: -18px;">B.Tech</h2>
+        <div class="course1">
+            <img src="{% static 'main/images/btech.png' %}" alt="BTECH">
+            <p>Bachelor of Technology (BTech) is a professional undergraduate engineering degree programme awarded
+                to candidates after they complete four years of study in the field. Engineering is one of the most
+                popular
+                courses
+                in India and there are many institutes that offer the course to aspiring students.
+
+                For admissions, the most common BTech entrance examinations are JEE Main and JEE Advanced. Along with
+                these
+                national
+                level entrance examinations, there are many state and private level entrance examinations that the
+                students
+                can
+                attempt for admission to the course. </p>
+        </div>
+    </div>
+    <div>
+        <h2>M.Tech</h2>
+        <div class="course2">
+            <p>
+                M.Tech is a two year postgraduate program in engineering. During the duration of two years, students are
+                given
+                exceptional knowledge on technologies. M.Tech enhances the skills of a candidate and makes him or her
+                specialist
+                in a particular area or field. To get admission into the M.Tech programme, candidates are required to
+                qualify
+                the entrance examinations. M.Tech is primarily into two categories - part time and full time. While most
+                M.Tech
+                admissions are done on the basis of the GATE exam, some institutes also conduct their own entrance test
+                or
+                interview.
+            </p>
+            <img src="{% static 'main/images/mtech.png' %}" alt="MTECH">
+        </div>
+    </div>
+    <div>
+        <h2>BCA</h2>
+        <div class="course3">
+            <img src="{% static 'main/images/BCA.jpg' %}" alt="">
+            <p>
+                BCA full form Bachelor of Computer Application is a 3-year undergraduate course that imparts knowledge
+                on
+                the
+                basics of computer application and software development. BCA subjects include database management
+                systems,
+                software engineering, operating systems, web technology, and computer languages.
+
+                BCA Admission 2022 is based on both merits as well as an entrance examination. The minimum BCA
+                eligibility
+                criteria followed across all Top BCA Colleges is 50% marks in 10+2 or equivalent examinations with
+                computer
+                application/computer science as an additional or core subject.BCA has become more popular with time.
+
+        </div>
+    </div>
+    <div>
+        <h2>MCA</h2>
+        <div class="course4">
+            <p>
+                MCA Full Form is Master of Computer Application. MCA is a postgraduate course that trains the students
+                in
+                the
+                various aspects of computer programs, application software, computer architecture, operating systems and
+                many
+                more. MCA Course duration is 2 years.
+
+                The MCA admission will be done on the basis of merit or entrance examination. The minimum MCA course
+                eligibility
+                criteria is a Bachelor's degree in computer application- BCA, or in any related field with mathematics
+                as a
+                compulsory subject in Class 12. The top MCA colleges in India prefer to admit students on the basis of
+                scores
+                from entrance exams.
+            </p>
+            <img src="{% static 'main/images/MCA.jpg' %}" alt="">
+
+        </div>
+    </div>
+</div>
+{%endblock%}

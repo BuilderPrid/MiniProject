@@ -1,0 +1,70 @@
+h1 {
+  color: rgb(12, 15, 20);
+}
+/* .outer {
+  background-color: rgb(241 240 240);
+  /* z-index: -1; */
+
+.content {
+  padding-top: 60px;
+  width: 80%;
+  margin-left: 180px;
+  /* border: 1px groove rgb(163, 160, 160); */
+  background-color: white;
+}
+
+.content h1 {
+  text-align: center;
+  margin: 60px 0px;
+  /* display: block;
+  margin-left: auto; */
+  /* margin-right: auto; */
+}
+.content h3,
+h2 {
+  text-align: center;
+}
+
+#toppers {
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 30px;
+}
+@keyframes flash {
+  from {
+    color: red;
+    /* font-size: 30px; */
+  }
+  to {
+    color: blue;
+    /* font-size: 35px; */
+  }
+}
+/* .anim{
+  margin-left: auto;
+  margin-right: auto;
+  animation-name:flash;
+  animation-duration: infinite;
+  animation-delay: 0ms;
+  animation-iteration-count: infinite;
+} */
+
+.anim {
+  font-size: 40px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: -30px;
+  animation-name: flash;
+  animation-duration: 1s;
+  animation-delay: 0ms;
+  padding-left: 80px;
+  animation-iteration-count: infinite;
+}
+img {
+  border: 2px solid rgb(148, 90, 18);
+  border-radius: 5px;
+}

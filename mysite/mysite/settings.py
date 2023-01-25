@@ -133,7 +133,7 @@ LOGOUT_REDIRECT_URL = "/"
 EMAIL_HOST = "smtp.gmail.com"
 EMAIL_PORT = 587
 EMAIL_HOST_USER = 'smtppriyanshu@gmail.com'
-EMAIL_HOST_PASSWORD = 'dtjnrpslvwzrfnuo'
+EMAIL_HOST_PASSWORD = ''
 EMAIL_USE_TLS = True
 
 MEDIA_ROOT = BASE_DIR / 'media'
